@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RideHub</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;700&family=Mountains+of+Christmas:wght@400;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">RideHub</div>
+
+        <div class="nav-links">
+            <a href="#">HOME</a>
+            <a href="#">BATTLES</a>
+            <a href="#">DEEP DIVES</a>
+            <a href="#">PARK HISTORY</a>
+            <a href="#">MY REVIEWS</a>
+            <a href="#">ABOUT</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>RideHub</h1>
+        <p class="tagline">Read, Ride, Decide!</p>
+    </header>
+
+    <main>
+
+        <section class="battle">
+
+            <div class="battle-heading">
+                <p class="battle-number">RH Rattle #001</p>
+                <h2 class="battle-title">Battle of the Week</h2>
+                <p class="live-label">LIVE</p>
+            </div>
+    
+
+            <div class="fighters">
+
+                <div class="fighter hagrids">
+
+                    <div class="ride-image">
+                    HAGRID'S IMAGE
+                    </div>
+
+                    <h2>
+                        <a href="articles/hagrids-vs-velocicoaster.html">Hagrid's</a>
+                    </h2>
+                    <p>Magical Creatures Motorbike Adventure</p>
+                    <div class="health-bar">
+                        <div class="health" id="hagrids-health"></div>
+                    </div>
+
+                    <p id="hagrids-hp">100 HP</p>
+                    <button onclick="voteHagrids()">VOTE HAGRID'S</button>
+                </div>
+
+                <div class="versus">
+                    VS.
+                </div>
+
+                <div class="fighter velocicoaster">
+
+                    <div class="ride-image">
+                    VELOCICOASTER IMAGE
+                    </div>
+
+                    <h2>VelociCoaster</h2>
+                    <p>Jurassic World</p>
+                    <div class="health-bar">
+                        <div class="health" id="veloci-health"></div>
+                    </div>
+
+                    <p id="veloci-hp">100 HP</p>
+                    <button onclick="voteVelociCoaster()">VOTE VELOCICOASTER</button>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
