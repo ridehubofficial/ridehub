@@ -201,3 +201,17 @@ button:hover {
 
     background-color: #22c55e;
 }
+
+.logo a:visited {
+    color: #26354A;
+}
+
+.logo a {
+    color: #26354A;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.logo a:hover {
+    transform: scale(1.05);
+}
