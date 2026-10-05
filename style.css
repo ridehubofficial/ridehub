@@ -114,6 +114,22 @@ button {
 
 @media (max-width: 700px) {
 
+    nav {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+}
+
+.nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.nav-links a {
+    font-size: 12px;
+}
+
     .fighters {
         flex-direction: column;
         gap: 20px;
